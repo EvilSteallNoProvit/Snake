@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{d11d7976-3241-4337-ab96-93b39158da42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hpp">
+      <UniqueIdentifier>{c025b8fa-66b5-4500-90eb-702b254b6195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{5123a196-f571-4bcb-bef8-f94a8b19a994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\fonts">
+      <UniqueIdentifier>{72a02c5f-e2c9-40a0-88fc-fd7d2c8d6bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\textures">
+      <UniqueIdentifier>{55aede65-8385-4819-9e68-0ade11061a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\splash">
+      <UniqueIdentifier>{6f6156b8-6e27-4700-914b-053793050092}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssetMan.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseGame.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMan.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssetMan.hpp">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.hpp">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay.hpp">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.hpp">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseGame.hpp">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.hpp">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="State.hpp">
+      <Filter>hpp</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMan.hpp">
+      <Filter>hpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Desktop\OFL.txt">
+      <Filter>assets\fonts</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\..\Desktop\ZenKurenaido-Regular.ttf">
+      <Filter>assets\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\2D-Snake-Game-master\assets\textures\snake.png">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\2D-Snake-Game-master\assets\textures\food.png">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\2D-Snake-Game-master\assets\textures\grass.png">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\wall.png">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\riga4ka.png">
+      <Filter>assets\splash</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
